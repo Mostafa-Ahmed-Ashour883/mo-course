@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(courses\ bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+html{
+
+    overflow-x: hidden;
+}
+
+nav{
+    z-index: 99999999999999999999999;
+    background: #003e9b;
+}
+
+.heading{
+    
+    margin: 5px 20px;
+    padding: 10px 10px;
+    color: #fff;
+    z-index: 100;
+}
+
+/* #recentlyAdded{
+    height: 100vh;
+} */
+
+.first-added{
+
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.back-to-home{
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+
+.vh{
+    height: 80vh;
+}
+
+/* #ourSources{
+    background: #ccc;
+} */
+
+
+
+.heading p{
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #0066ff;
+    margin-top: 10px;
+}
+
+.heading h2{
+    margin-top: 20px;
+}
+
+#facebook,#instagram,#twitter,#snapchat{
+
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 5px 20px;
+}
+
+
+
+svg{
+
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.social{
+
+    display: flex;
+    flex-direction: row;
+}
+/* 
+#showCourses{
+    border: ;
+} */
+
+.heading button{
+    background-color:#0066ff;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
